@@ -1,0 +1,48 @@
+body {
+    background: #636e72;
+}
+
+.inputCustom {
+    border: none;
+    background: #74b9ff;
+    height: 40px;
+    width: 312px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30pt;
+    text-align: right;
+}
+
+.contenedor-calculadora {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    border: 1px solid black;
+    width: 324px;
+    margin: 0 auto;
+    background: #74b9ff;
+    padding: 2px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#table1 {
+    display: inline-block;
+}
+
+#table-numeros button {
+    width: 80px;
+    height: 80px;
+}
+
+#table-operadores button {
+    width: 63.5px;
+    height: 63.5px;
+}
+
+#table2 {
+ display: inline-block;   
+}
+
+#table-operadores th {
+    display: block;
+}

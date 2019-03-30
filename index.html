@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- BOOTSTRAP-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- ANIMATED -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <div class="contenedor-calculadora animated bounceIn">
+        <h1>Calculadora</h1>
+        <hr>
+        <input class="inputCustom" id="input_operador" type="text" readonly>
+        <input class="inputCustom" id="input_resultado" type="text" readonly>
+        <div id="table1">
+        <table id="table-numeros">
+            <tr>
+                <th><button class="btn btn-primary" id="button_7" value="7">7</button></th>
+                <th><button class="btn btn-primary" id="button_8" value="8">8</button></th>
+                <th><button class="btn btn-primary" id="button_9" value="9">9</button></th>
+            </tr>
+            <tr>
+                <th><button class="btn btn-primary" id="button_4" value="4">4</button></th>
+                <th><button class="btn btn-primary" id="button_5" value="5">5</button></th>
+                <th><button class="btn btn-primary" id="button_6" value="6">6</button></th>
+            </tr>
+            <tr>
+                <th><button class="btn btn-primary" id="button_1" value="1">1</button></th>
+                <th><button class="btn btn-primary" id="button_2" value="2">2</button></th>
+                <th><button class="btn btn-primary" id="button_3" value="3">3</button></th>
+            </tr>
+            <tr>
+                <th><button class="btn btn-primary" id="button_0" value="0">0</button></th>
+                <th><button class="btn btn-primary" id="button_punto" value=".">.</button></th>
+                <th><button class="btn btn-primary" id="button_igual" value="="><i class="fas fa-equals"></i></button></th>
+            </tr>
+        </table>
+    </div>
+    <div id="table2">
+        <table id="table-operadores">
+            <tr>
+                <th><button class="btn btn-primary" id="button_retroceso" value="delete"><i class="fas fa-arrow-left"></i></button></th>
+                <th><button class="btn btn-primary" id="button_dividir" value="/"><i class="fas fa-divide"></i></button></th>
+                <th><button class="btn btn-primary" id="button_multiplicar" value="*"><i class="fas fa-times"></i></button></th>
+                <th><button class="btn btn-primary" id="button_restar" value="-"><i class="fas fa-minus"></i></button></th>
+                <th><button class="btn btn-primary" id="button_sumar" value="+"><i class="fas fa-plus"></i></button></th>
+            </tr>
+        </table>
+    </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
